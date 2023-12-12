@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
